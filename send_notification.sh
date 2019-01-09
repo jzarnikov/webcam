@@ -1,4 +1,5 @@
 #!/bin/bash
+source config.sh
 curl -X POST -s \
   --form-string "app_key=$PUSHED_APP_KEY" \
   --form-string "app_secret=$PUSHED_APP_SECRET" \
