@@ -23,6 +23,8 @@ if [ ! -f disabled ]; then
     else
         rm $1
     fi
+else
+    rm $1
 fi
 
 
